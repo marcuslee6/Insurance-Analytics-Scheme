@@ -11,6 +11,6 @@ Business Value: Identified a "High-Exposure" segment where lifestyle factors (BM
 Part 2: Dimensionality Reduction & Predictive Modeling
 Objective: Simplify complex data and predict annual insurance charges.
 Techniques: PCA (n=2), VIF Diagnostics, Multiple Linear Regression.
-Key Action: Applied PCA to eliminate Multicollinearity (redundancy) between features while retaining ~85% of data variance.
-Validation: Performed VIF (Variance Inflation Factor) checks to ensure model stability and analyzed Residual Plots to confirm prediction reliability.
+Key Action: Applied PCA to eliminate Multicollinearity between features while retaining ~85% of data variance.
+Validation: Performed VIF (Variance Inflation Factor) checks to guarantee model stability and analyzed Residual Plots to confirm prediction reliability.
 Business Value: Provides a stable forecasting engine for total Aggregate Loss.
