@@ -13,4 +13,16 @@ Objective: Simplify complex data and predict annual insurance charges.
 Techniques: PCA (n=2), VIF Diagnostics, Multiple Linear Regression.
 Key Action: Applied PCA to eliminate Multicollinearity between features while retaining approximately 85% of data variance.
 Validation: Performed VIF (Variance Inflation Factor) checks to guarantee model stability and analyzed Residual Plots to confirm prediction reliability.
-Business Value: Provides a stable forecasting engine for total Aggregate Loss.
+Business Value: 
+1)Provides a stable forecasting engine for total Aggregate Loss.
+2)Accounted for the Fat-tailed (Pareto) distribution of insurance charges to improve prediction accuracy for high-cost outliers
+
+Part 3:Advanced Risk Classification
+Objective:To develop a robust binary classification system that predicts high-cost outliers using a multi-model approach.
+Techniques: Linear Discriminant Analysis (LDA), Single-Layer Perceptron, Support Vector Machines (SVM).
+Methodology: 
+1)Preprocessing: Transformed continuous insurance charges into binary risk levels (High vs. Low) to test categorical prediction power.
+2)LDA: Utilized LDA to project features into a lower-dimensional space that maximizes the separation between risk classes.
+3)Perceptron: Implemented a Single-Layer Perceptron as a baseline neural-logic model to evaluate linear separability.
+4)SVM: Applied Support Vector Machines to identify the optimal hyperplane with the Maximum Magin, ensuring robust classification with overlapping data points.
+IE Insight: This project simulates an automated underwriting system where the goal is to minimize misclassifcation of high-risk policyholders, thereby protecting the company's Aggregate Loss method.
