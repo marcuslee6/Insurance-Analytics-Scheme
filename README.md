@@ -5,8 +5,12 @@ Part 1: Unsupervised Customer Segmentation
 Objective: Move beyond basic demographics to identify hidden behavioral clusters.
 Techniques: K-Means Clustering, Agglomerative Hierarchical Clustering.
 Key Action: Used the Elbow Method to optimize \(K=4\) and visualized the hierarchy using a Dendrogram.
+The four groups are:
+1) Low-Risk young people (normal BMI and non-smokers, low-premium health insurance)
+2) High Risk Smoker (Wide range of age,extremely high-premium health insurance)
+3) Middle-Aged Healthy families (Have children, normal BMI, non-smokers, middle-premium health insurance)
+4) High BMI/Elderly (high chronic risk, relatively high-premium health insurance)
 Business Value: Identified a "High-Exposure" segment where lifestyle factors (BMI/Smoking) drive higher costs, enabling Risk-Adjusted Pricing.
-
 
 Part 2: Dimensionality Reduction & Predictive Modeling
 Objective: Simplify complex data and predict annual insurance charges.
